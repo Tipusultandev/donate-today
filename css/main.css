@@ -1,0 +1,390 @@
+/* google font load */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Lobster&family=Manrope&family=Poppins:wght@400;600&family=Roboto:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -ms-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+* Address `outline` inconsistency between Chrome and other browsers.
+*/
+
+a:focus {
+  outline: thin dotted;
+}
+
+/**
+* Improve readability when focused and also mouse hovered in all browsers.
+*/
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #707070;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #ffffff;
+  padding: 14px 12px;
+  margin-top: 30px;
+  background: #ff5959;
+  border-radius: 5px;
+  border: none;
+}
+
+h1 {
+  font-size: 65px;
+}
+
+h2 {
+  font-size: 45px;
+  color: #121212;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+  color: #121212;
+  margin-bottom: 15px;
+}
+
+h1,
+h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+/******* 1.donate-hero *******/
+
+.donate-hero {
+  background-image: url(../images/donation10.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.donate-hero__wrapper {
+  background-image: linear-gradient(
+    360deg,
+    #121212 0%,
+    rgba(18, 18, 18, 0) 100%
+  );
+}
+
+.donate-hero__content {
+  padding: 172px 0 175px;
+}
+.donate-newsletter__content,
+.donate-plan__content,
+.donate-area__content,
+.donate-hero__content {
+  width: 100%;
+  max-width: 830px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.donate-hero__header,
+.donate-hero__description {
+  color: #fff;
+}
+
+.donate-newsletter__description,
+.donate-plan__description,
+.donate-hero__description,
+.donate-area__description {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  padding: 0px 50px 50px;
+}
+
+.donate-hero__button {
+}
+
+/******* 2.donate-content *******/
+
+.donate-content {
+}
+
+.donate-area__content {
+  padding: 130px 0;
+}
+
+.donate-area__header {
+}
+
+.donate-area__description {
+  color: #707070;
+}
+.donate-plan__boxs,
+.donate-area__boxs {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 22px;
+}
+
+.donate-area__box {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 40px 25px;
+}
+
+.donate-area__box--color {
+  box-sizing: border-box;
+  background: #ffeeee;
+  border: 2px solid #ff5959;
+}
+
+.donate-area__label {
+}
+
+.donate-area__label--color {
+  color: #ff5959;
+}
+
+.donate-area__form {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.donate-area__input {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #b3b3b3;
+  border: none;
+  border-bottom: 1px solid #dadada;
+}
+
+.donate-area__button {
+}
+
+/******* 3.donate-plan *******/
+.donate-plan {
+}
+
+.donate-plan__content {
+}
+
+.donate-plan__subheader {
+}
+
+.donate-plan__summary {
+}
+
+.donate-plan__boxs {
+  width: 100%;
+  max-width: 1130px;
+  margin: 0 auto;
+}
+
+.donate-plan__box {
+  padding: 64px 24px 55px;
+  border-radius: 5px;
+}
+
+.donate-plan__box--sky {
+  background-color: rgba(79, 157, 166, 0.1);
+}
+
+.donate-plan__box--pink {
+  background-color: rgba(255, 89, 89, 0.1);
+}
+
+.donate-plan__box--yellow {
+  background-color: #fff4d6;
+}
+
+.donate-plan__image {
+  margin-bottom: 25px;
+}
+
+.donate-plan__header {
+}
+
+.donate-plan__description {
+}
+
+/******* 4.donate-feature *******/
+
+.donate-feature {
+  width: 100%;
+  max-width: 1130px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  padding: 130px 0;
+  margin: 0 auto;
+}
+
+.donate-feature__wrapper {
+  width: calc(100% - 100px);
+  display: flex;
+  gap: 90px;
+}
+
+.donate-feature__content {
+  width: calc(50% - 10px);
+}
+
+.donate-feature__header {
+}
+
+.donate-feature__description {
+}
+
+.donate-feature__button {
+}
+
+.donate-feature__picture {
+}
+
+.donate-feature__image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/******* 5.donate-newsletter *******/
+
+.donate-newsletter {
+  padding-bottom: 130px;
+}
+
+.donate-newsletter__content {
+}
+
+.donate-newsletter__heading {
+}
+
+.donate-newsletter__description {
+}
+
+.donate-newsletter__form {
+  width: 100%;
+  max-width: 830px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background: #fff4d6;
+  padding: 76px 180px;
+}
+
+.donate-newsletter__input-form {
+  display: flex;
+  width: calc(100% - 300px);
+  border-radius: 5px;
+}
+
+.donate-newsletter__input {
+  background: #d9d9d9;
+  width: 100%;
+  border-radius: 5px 0px 0px 5px;
+  border: none;
+  padding: 13px 17px;
+}
+
+.donate-newsletter__submit {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  color: #ffffff;
+  padding: 14px 42px;
+  background: #ff5959;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+}
+
+/*******6.donate-footer *******/
+
+.donate-footer {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0b0d17;
+  padding: 43px 0;
+}
+
+.donate-footer__header {
+  font-family: "Lobster", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  color: #ff5959;
+  margin-bottom: 20px;
+}
+
+.donate-footer__description {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #d9dbe1;
+}
